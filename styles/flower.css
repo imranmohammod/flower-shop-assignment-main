@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -12,6 +12,9 @@ body {
 .text-primary {
     color: #E55473;
 }
+.text-shop {
+    color: white;
+}
 
 .btn-primary {
     border-radius: 8px;
@@ -21,6 +24,26 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
+}
+
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding: 128px 870px 30px 870px;
+    
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 663px 48px 663px;
+    text-align: center;
 }
 
 /* nav related styles */
@@ -33,60 +56,69 @@ body {
 } */
 
 /* header related styles */
-.header{
+.header {
     background-color: rgba(229, 84, 115, 0.10);
 }
-.banner{
+
+.banner {
     padding: 50px 240px 0px 240px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 1920px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 635px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 80px;
     font-weight: 800;
     color: #272727;
     margin-bottom: 32px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
-    margin-top:  32px;
+    margin-top: 32px;
     margin-bottom: 32px;
 }
 
 /* main section styles */
-.main{
+.main {
     background-color: rgba(229, 84, 115, 0.05);
 }
-.sale{
+
+.sale {
     padding: 100px 429px 100px 240px;
     display: flex;
     align-items: center;
-    justify-content:space-around; 
+    justify-content: space-around;
 }
-.sale-content{
+
+.sale-content {
     max-width: 1922px;
 }
-.sale .profile-pic{
+
+.sale .profile-pic {
     width: 318px;
 }
-.sale-title{
+
+.sale-title {
     font-size: 40px;
     font-weight: 800;
     color: #272727;
     margin-bottom: 32px;
     text-align: center
 }
-.sale-description{
+
+.sale-description {
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
@@ -95,4 +127,66 @@ body {
     text-align: center;
 }
 
-/* delivery section styles */
+/* flower related styles */
+
+.instagram-flower{
+    width: 1920px;
+    height: 4867px;
+}
+
+#instagram-description {
+    padding: 24px 663px 48px, 663px;
+}
+
+.flower-container{
+    display: flex;
+    gap: 24px;
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    padding-top: 48px;
+    padding-right: 240px;
+    padding-bottom: 128px;
+    padding-left: 48px;
+    margin: auto;
+}
+
+/* footer related styles */
+.footer {
+    Rectangle 7 
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background-color: #111010;
+}
+
+.footer-content {
+    width: 100%
+}
+
+.company-name {
+    padding: 128px 832px 24px 831px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #E55473;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.company-title {
+    padding: 24px 649px 24px 648px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center; 
+    line-height: 30px;
+}
+
+.all-rights {
+    padding: 32px 783px 0px 784px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+ }
