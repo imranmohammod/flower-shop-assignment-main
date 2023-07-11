@@ -151,9 +151,30 @@ body {
     margin: auto;
 }
 
+/* banner photo related styles */
+.banner-img{
+    width: 1440px;
+}
+.banner-photo-container{
+    display:flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
 /* footer related styles */
 .footer {
-    Rectangle 7 
+    Rectangle: 7 
     width: 1922px;
     height: 449px;
     flex-shrink: 0;
